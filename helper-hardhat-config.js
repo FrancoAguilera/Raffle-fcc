@@ -3,7 +3,7 @@ const { ethers } = require("ethers")
 const networkConfig = {
   5: {
     name: "goerli",
-    subscriptionId: "6926",
+    subscriptionId: "2879",
     gasLane: "0x79d3d8832d904592c0bf9818b621522c988bb8b0c05cdc3b15aea1b6e8db0c15", // 30 gwei
     keepersUpdateInterval: "30",
     raffleEntranceFee: ethers.utils.parseEther("0.01"), // 0.1 ETH
